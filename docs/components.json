@@ -1,0 +1,55 @@
+{
+    "LandingPage": {
+        "Menue":[
+            "RoomsTypes",
+            "Impressum"
+        ],
+      "GeneralInformation":{
+
+      }
+    },
+    "UserArea": {
+        "Menue":[
+            "orders",
+            "personalinformations"
+        ]
+    },
+    "ContractorArea": {
+        "Menue": {
+          "Rooms":{
+            "Actions": [
+              "Add",
+              "Edit",
+              "Remove",
+              "ChangeState"
+            ]
+          },
+          "Keys": {
+            "Actions": [
+              "Set Active",
+              "Set Inactive",
+              "Invalidate"
+            ]
+          },
+          "Customer": {
+            "Actions" : [
+              "Add",
+              "Edit",
+              "Enable",
+              "Disable",
+              "Remove"
+            ]
+          }
+        },
+        "Pages":{
+
+        }
+    },
+    "AdminArea": {
+        "Menue": [
+            "orders",
+            "users",
+            "employees"
+        ]
+    }
+}

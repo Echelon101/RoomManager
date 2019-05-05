@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/semantic.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/icon.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/dropdown.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/accordion.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/button.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/item.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/main.css" />
+    </head>
+    <body>
+        <div id="contextWrap">
+            <!--Sidebar-->
+            <div class="ui sidebar vertical left menu overlay borderless visible sidemenu inverted grey" style="-webkit-transition-duration: 0.1s; transition-duration: 0.1s;" data-color="grey">
+                <div class="ui fluid accordion inverted">
+                    <div class="active title">
+                      <i class="dropdown icon"></i>
+                      Admin-Area
+                    </div>
+                    <div class="content">
+                        <a class="ui item" href="#">User's</a>
+                        <a class="ui item" href="#">Room's</a>
+                        <a class="ui item" href="#">Order's</a>
+                    </div>
+                </div> 
+            </div>
+            <!--Sidebar-->
+        </div>
+        <script src="../public/js/jquery-3.3.1.min.js"></script>
+        <script src="../public/js/semantic.min.js"></script>
+        <script src="../public/js/dropdown.min.js"></script>
+        <script src="../public/js/accordion.min.js"></script>
+        <script>
+            $('.ui.dropdown')
+                .dropdown();
+        </script>
+        <script>
+            $('.ui.accordion')
+                .accordion();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/semantic.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/icon.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/accordion.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../public/css/main.css" />
+    </head>
+    <body>
+        <div id="contextWrap">
+            <!--Sidebar-->
+            <div class="ui sidebar vertical left menu overlay  borderless visible sidemenu inverted  grey" style="-webkit-transition-duration: 0.1s; transition-duration: 0.1s;" data-color="grey">
+                <a class="item logo" href="{{ path('default') }}">
+                    <img src="{{ asset('img/logo.png') }}" alt="stagblogo" /><img src="{{ asset('img/thumblogo.png') }}" alt="stagblogo" class="displaynone" />
+                </a>
+                <div class="ui accordion inverted">
+                    <a class="item active" href="index.php">Startseite</a>
+                    <a class="item" href="#">Räume</a>
+                    <a class="item" href="#">Login</a>        
+                </div>
+            </div>
+            <!--Sidebar-->
+            <div class="pusher">
+                <!--MainContent-->
+                <div class="mainWrap navslide">
+                    <div class="ui equal width left aligned padded grid stackable">
+                        <!--SiteContent-->
+                        <p> Wir vermieten Lagerräume in verschiedenen Größen.
+                        Zur Verfügung stehen jeweils Vier Räume mit der Größe von 5, 10 und 50 m².
+                        Um einen der freien Lagerräume zu mieten registrieren Sie sich bitte oder melden Sie sich mit einem bereits bestehenden Benutzerkonto an.
+                        Wenn Sie sich für eine Größe entschieden haben wird die Buchung von uns geprüft und freigegeben. 
+						In Ihrem Profilbereich finden Sie Ihre Bestellungen und die Zugangscodes, mit denen die Türen zu den Lagerräumen geschützt sind.
+						So wird Ihnen volle Sicherheit auch ohne phsysischem Schlüssel oder Kontakt garantiert.
+                        </p>
+                        <!--SiteContent-->
+                    </div>
+                </div>
+                <!--MainContent-->
+            </div>
+        <div>
+        <script src="../public/js/jquery-3.3.1.min.js"></script>
+        <script src="../public/js/semantic.min.js"></script>
+        <script src="../public/js/dropdown.min.js"></script>
+        <script src="../public/js/accordion.min.js"></script>
+    </body>
+</html>
